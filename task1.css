@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.indexbg{
+    border: 0.1px solid rgb(255, 255, 255);
+    /* size: 100vw; */
+    background-color: #f4f1f1;
+    height: 180px;
+   
+}
+
+.index{
+    margin-left: 20px;
+    
+}
+
+.expenditure{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+.vl{
+    border-right: 2px solid rgb(169, 166, 166);
+    height: 70px;
+    position: absolute;
+    right: 45%;
+    margin-right:-70px ;
+    top: 190px;
+    
+}
+p{
+    font-size: 15px;
+
+}
+p1{
+    color: red;
+    font-size: 25px;
+}
+p2{
+    color:rgb(4, 255, 4);
+    font-size: 25px;
+}
+.info{
+    font-size:35px;
+}
