@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1 tailwind</title>
+    <script src="https://kit.fontawesome.com/7748f3a2f4.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" 
+    rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <i class="fa fa-briefcase" >&nbsp;&nbsp;Work/Incomes</i>
+    </div>
+    <br>
+    <!-- Heading -->
+    <h2 class="text-2xl font-semibold"> Incomes</h2>
+    <br>
+
+    <!-- Money Index -->
+     <div class="box-border h-48 bg-yellow-100   ">
+        <div class="mx-5">
+        <P class="text-2xl">Total</P>
+        <br>
+        <strong class="text-2xl">$2,478.67 </strong><br>
+        <!-- <i class="fa-sharp fa-solid fa-up-right" style="color: #2a511f;"></i> -->
+        <br>
+            <div class="flex flex-row justify-between w-5/12		">
+                <!-- incometax -->
+                <div class="Incometax">
+                    <p class="text-base">Income tax <i class="fa fa-info-circle" aria-hidden="true"></i></p>
+                    <P class="text-red-600 text-2xl">-$345.56</P>
+                    
+                   
+                </div>
+                <!-- Expenses -->
+                <div class="Expenses">
+                    <p class="text-base">Expenses<i class="fa fa-info-circle" aria-hidden="true"></i></p>
+                    <P class="text-red-600 text-2xl">-$1,1450.6</P>
+                </div>
+                <!-- NetIncome -->
+                <div class="NetIncome">
+                    <p class="text-base">Net Income<i class="fa fa-info-circle" aria-hidden="true"></i></p>
+                    <P class="text-green-600 text-2xl">$1,098.32</P>
+                </div>
+                   
+            </div>
+        </div>
+     </div>
+     
+     <hr class="border-gray-500">
+     <table border="0"  cellpadding="10" width="100%" style="text-align: center; ">
+        <tr class="bg-gray-200">
+            <th>Client</th>
+            <th>Date Paid</th>
+            <th>GST</th>
+            <th>priority</th>   
+            <th>Amount</th>
+        </tr>
+        <tr>   
+            <td>Plain Inc</td>
+            <td>17 Nov,2023</td>
+            <td>-$230.00</td>
+            <td><button class="rounded-full bg-red-500"> &nbsp; high &nbsp;</button></td>
+            <td>$2300.00</td>
+        </tr>
+        <tr>
+        <td>Plaid Inc</td>
+        <td>16 Nov,2023</td>
+        <td>-$100.00</td>
+        <td><button class="rounded-full bg-green-500">&nbsp; low &nbsp;</button></td>
+        <td>$1000.00</td> 
+        </tr>
+            <tr>
+            <td>Plaid Inc</td>
+            <td>15 Nov,2023</td>
+            <td>-$670.00</td>
+            <td><button class="rounded-full bg-red-500">&nbsp; high &nbsp;</button></td>
+            <td>$6700.00</td> 
+            </tr>
+                <tr>
+                <td>Plaid Inc</td>
+                <td>12 Nov,2023</td>
+                <td>-$54.00</td>
+                <td><button class="rounded-full bg-green-500">&nbsp; low &nbsp; </button></td>
+                <td>$549.00</td> 
+                </tr>
+        </table>
+
+
+
+
+</body>
+</html>
